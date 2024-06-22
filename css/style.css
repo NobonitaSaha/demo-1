@@ -52,19 +52,6 @@ body{
     text-align: center;
 }
 
-.header-text-description {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-.header-text-description > img {
-    width: 70px;
-    height: auto;
-    margin-top: -85px;
-    position: relative;
-    left: 10px;
-}
 
 .header-text-description > h1 {
     color: #ffffff;
@@ -73,7 +60,17 @@ body{
     line-height: 60px;
     letter-spacing: 0.2px;
     margin-bottom: 20px;
-    word-spacing: 1px
+    word-spacing: 1px;
+    display: block;
+}
+
+
+.header-text-description > h1 > img{
+    width: 60px;
+    height: 44px;
+    position: relative;
+    left: -5px;
+    top: 5px;
 }
 
 .header-description > p {
@@ -394,6 +391,7 @@ a.list-btn-a {
     font-weight: 400;
     letter-spacing: 0.2px;
     word-spacing: 1px;
+    padding-top: 8px;
 }
 /* -----------------------------
     List Item End

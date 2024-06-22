@@ -8,15 +8,21 @@
         display: none;
     }
 
-    .header-text-description > img {
-        display: none;
-    }
-
     .header-text-description > h1 {
         font-size: 28px;
         line-height: 40px;
         word-spacing: 0px;
+        color: #fff;
         text-align: left;
+        font-weight: 600;
+        display: block;
+    }
+
+    .header-text-description > h1 > img {
+        width: 54px;
+        position: relative;
+        top: 10px;
+        height: 40px;
     }
 
     .header-padding {
@@ -227,7 +233,7 @@
     }
 
     .list-icon-bg {
-        min-width: 220px;
+        min-width: 155px;
     }
 
     .ribbon span {
@@ -311,19 +317,6 @@
         padding: 10px 22px;
         font-size: 14px;
         font-weight: 500;
-    }
-
-    .header-text-description > h1 {
-        margin-left: -75px;
-    }
-
-    .header-text-description > img {
-        width: 60px;
-        height: auto;
-        margin-top: -85px;
-        position: relative;
-        left: 45px;
-        top: -30px;
     }
 
     .header-description > p {
